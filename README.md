@@ -408,6 +408,24 @@ fun_facts:
 ---
 
 <!-- ══════════════════════════════════════════════════════════════ -->
+<!--                  3D CONTRIBUTION GRAPH                       -->
+<!-- ══════════════════════════════════════════════════════════════ -->
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Crystal%20Ball.png" width="35" /> &nbsp;3D Isometric Contribution Graph
+
+<div align="center">
+
+<img src="profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution Graph" />
+
+> 🔧 *Run the `Generate 3D Contribution Graph` GitHub Action to render this magic component!*
+
+</div>
+
+<br/>
+
+---
+
+<!-- ══════════════════════════════════════════════════════════════ -->
 <!--                  CONTRIBUTION SNAKE                          -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 
@@ -584,35 +602,9 @@ JavaScript    ██░░░░░░░░░░░░░░░░░░  10 %
 
 <br/>
 
-### 🐍 1. Enable the Contribution Snake
+### 🐍 1. Enable the Contribution Snake & 3D Graph
 
-Create `.github/workflows/snake.yml` in **this** repo (`vineeey/vineeey`):
-
-```yaml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
+Create `.github/workflows/snake.yml` and `.github/workflows/3d-contrib.yml` in **this** repo (`vineeey/vineeey`). We already created them for you! Just head over to your **Actions** tab on GitHub and click **Run workflow** for both of them to generate the magic SVGs.
 
 ---
 
