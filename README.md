@@ -170,7 +170,7 @@ currently_building:
     tech:       ["Django", "Coqui XTTS v2", "ElevenLabs", "FFmpeg"]
 
 achievements:
-  - "🏆 300+ hackathon hours across multiple events"
+  - "🏆 100+ hackathon hours across multiple events"
   - "🚀 12+ projects built and deployed"
   - "🤖 8+ AI API integrations shipped to production"
   - "📄 AI-generated PDF reports pipeline at scale"
