@@ -68,7 +68,7 @@
   <img src="https://img.shields.io/badge/8+-AI_Integrations-00d4ff?style=for-the-badge&logo=openai&logoColor=white" />
 </td>
 <td align="center" width="200">
-  <img src="https://img.shields.io/badge/300+-Hackathon_Hours-ff6b6b?style=for-the-badge&logo=hackster&logoColor=white" />
+  <img src="https://img.shields.io/badge/100+-Hackathon_Hours-ff6b6b?style=for-the-badge&logo=hackster&logoColor=white" />
 </td>
 <td align="center" width="200">
   <img src="https://img.shields.io/badge/2027-Graduating-9b6dff?style=for-the-badge&logo=mortarboard&logoColor=white" />
